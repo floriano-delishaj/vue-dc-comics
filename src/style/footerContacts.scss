@@ -1,0 +1,43 @@
+@import '@/style/variables.scss';
+
+footer {
+
+    height: 100px;
+    background-color: $footer-color;
+
+    .container {
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+        .btn {
+            display: inline-block;
+            text-transform: uppercase;
+            color: $white;
+            padding: 10px;
+            border: 2px solid $primary-color;
+        }
+
+        .socials {
+            display: flex;
+
+            h4 {
+                line-height: 40px;
+                text-transform: uppercase;
+                color: $primary-color;
+                margin-right: 20px;
+            }
+
+            ul {
+                display: flex;
+
+                li {
+                    margin-right: 15px;
+                }
+            }
+        }
+  }
+}
+

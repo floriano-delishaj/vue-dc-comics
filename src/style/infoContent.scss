@@ -1,0 +1,43 @@
+@import '@/style/variables.scss';
+
+.info-content {
+    background-color: $primary-color;
+    height: 110px;
+
+    .container {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 100%;
+
+        ul {
+
+            display: flex;
+
+            li {
+
+                font-size: 12px;
+                color: $white;
+                display: flex;
+                align-items: center;
+                margin: 0 15px;
+
+                .info-icon {
+
+                    img {
+
+                        height: 55px;
+                    }
+                }
+
+                .info-text {
+                    padding: 0 10px;
+                    text-transform: uppercase;
+                }
+            }
+
+        }
+
+    }
+}

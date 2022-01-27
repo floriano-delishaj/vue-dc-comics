@@ -1,0 +1,25 @@
+.footer-nav {
+    height: 400px;
+    background: url('../assets/footer-bg.jpg') no-repeat;
+    background-size: cover;
+
+    .container {
+
+        height: 100%;
+        display: flex;
+
+        .section-left {
+            display: flex;
+            width: 40%;
+            margin-right: 100px;
+        }
+    
+        .section-right {
+            width: 50%;
+            background: url('../assets/dc-logo-bg.png') no-repeat 50% 50%;
+            background-size: 90%;
+
+        }
+    }
+
+}

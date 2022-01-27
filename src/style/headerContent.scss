@@ -1,0 +1,56 @@
+@import '@/style/variables.scss';
+
+header {
+    background-color: $white;
+    padding: 10px 0;
+
+    .container {
+
+        display: flex;
+        height: 70px;
+        align-items: center;
+
+        .header-left {
+
+            width: 50%;
+            height: 100%;
+
+            img {
+                height: 60px;
+            }
+
+        }
+
+        .header-right {
+
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            height: 70px;
+
+            ul {
+
+                display: flex;
+
+                li {
+                    height: 70px;
+                    text-transform: uppercase;
+                    padding: 0 20px;
+                    font-size: 14px;
+                    line-height: 70px;
+
+                    &:hover {
+                        border-bottom: 4px solid $primary-color;
+                    }
+
+                }
+
+
+
+            }
+
+        }
+
+
+    }
+}
