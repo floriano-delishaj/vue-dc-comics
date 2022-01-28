@@ -3,7 +3,23 @@
 main {
     background-color: $main-color;
 
+
+
     .container {
+
+        .current-series {
+
+            display: inline;
+            padding: 10px 18px;
+            background-color: $primary-color;
+            position: relative;
+            top: -10px;
+            color: $white;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 18px;
+    
+        }
 
         .row {
 

@@ -7,7 +7,6 @@ header {
     .container {
 
         display: flex;
-        height: 70px;
         align-items: center;
 
         .header-left {
@@ -22,7 +21,7 @@ header {
         }
 
         .header-right {
-
+            height: 100%;
             display:flex;
             align-items: center;
             justify-content: center;
@@ -30,16 +29,12 @@ header {
             ul {
 
                 display: flex;
-                align-items: center;
                 margin: 0;
 
                 li {
-                    display: flex;
-                    align-items: center;
                     text-transform: uppercase;
                     padding: 0 20px;
                     font-size: 14px;
-
 
 
                     a {
@@ -49,6 +44,7 @@ header {
                         &:hover {
                             border-bottom: 4px solid $primary-color;
                         }
+
                     }
 
                 }

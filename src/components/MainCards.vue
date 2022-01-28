@@ -1,7 +1,14 @@
 <template>
     
     <main>
+
+
         <div class="container">
+
+        <div class="current-series">
+            current series
+        </div>
+
             <div class="row">
                 <div class="col-2 pt-3" v-for="(card, i) in comics" :key="i">
                     <div class="card-box">
