@@ -26,21 +26,29 @@ header {
             display:flex;
             align-items: center;
             justify-content: center;
-            height: 70px;
 
             ul {
 
                 display: flex;
+                align-items: center;
+                margin: 0;
 
                 li {
-                    height: 70px;
+                    display: flex;
+                    align-items: center;
                     text-transform: uppercase;
                     padding: 0 20px;
                     font-size: 14px;
-                    line-height: 70px;
 
-                    &:hover {
-                        border-bottom: 4px solid $primary-color;
+
+
+                    a {
+                        color: inherit;
+                        text-decoration: inherit;
+
+                        &:hover {
+                            border-bottom: 4px solid $primary-color;
+                        }
                     }
 
                 }
