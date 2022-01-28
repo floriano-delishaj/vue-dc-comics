@@ -2,5 +2,31 @@
 
 main {
     background-color: $main-color;
-    height: 100px;
+
+    .container {
+
+        .row {
+
+            .col-2 {
+
+                .card-box {
+                    height: 300px;
+                    .card-img {
+                        height: 70%;
+
+                        img {
+                            height: 100%;
+                            width: 100%;
+                        }
+                    }
+
+                    p {
+                        height: 30%;
+                        padding-top: 10px;
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
 }

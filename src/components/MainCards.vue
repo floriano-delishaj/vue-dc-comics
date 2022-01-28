@@ -3,11 +3,13 @@
     <main>
         <div class="container">
             <div class="row">
-                <div class="col-2">
-                    ciao sono testo
-                </div>
-                <div class="col-2">
-                    ciao sono testo
+                <div class="col-2 pt-3" v-for="(card, i) in comics" :key="i">
+                    <div class="card-box">
+                        <div class="card-img">
+                            <img :src="card.thumb" alt="">
+                        </div>
+                        <p>{{card.series}}</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -17,12 +19,14 @@
 
 <script>
     export default {
-
+        props: {
+            comics: Array
+        }
     }
 </script>
 
 <style lang="scss" scoped>
 
-@import '@/style/mainCards.scss'
+@import '@/style/mainCards.scss';
 
 </style>
